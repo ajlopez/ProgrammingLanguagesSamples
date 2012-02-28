@@ -1,0 +1,1 @@
+println("Hello, " + args(0) + ", Welcome to Scala")
