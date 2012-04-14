@@ -1,3 +1,6 @@
+
+// Taken from http://www.scala-lang.org/node/54
+
 package examples.actors
 
 import scala.actors.Actor
@@ -14,7 +17,7 @@ case object Stop extends PongMessage
 
 object pingpong extends Application {
   val pong = new Pong
-  val ping = new Ping(100000, pong)
+  val ping = new Ping(10000, pong)
   ping.start
   pong.start
   ping ! Start
