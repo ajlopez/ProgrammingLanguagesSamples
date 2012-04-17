@@ -14,4 +14,9 @@
 			[(first s) (lz-rec-step (rest s))]
 			[])))
 
+(comment 
+	(lz-rec-step (range 10))
+	(lz-rec-step (range 10000))
+)
+
 			
