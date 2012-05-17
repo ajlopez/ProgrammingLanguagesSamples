@@ -1,0 +1,1 @@
+c:\Git\clojurescript\bin\cljsc hello.cljs  > hello.js
