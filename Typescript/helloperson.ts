@@ -1,12 +1,12 @@
 
 interface Person {
-	firstname: string;
-	lastname: string;
+    firstname: string;
+    lastname: string;
 }
 
 function hello(person: Person)
 {
-	return 'Hello ' + person.firstname + ' ' + person.lastname;
+    return 'Hello ' + person.firstname + ' ' + person.lastname;
 }
 
 var adam = {firstname: 'Adam', lastname: 'Doe' }

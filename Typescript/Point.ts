@@ -1,15 +1,15 @@
 
 interface Point {
-	x: number;
-	y: number;
+    x: number;
+    y: number;
 }
 
 function getX(point: Point) {
-	return point.x;
+    return point.x;
 }
 
 class CPoint {
-	constructor(public x:number, public y:number) {}
+    constructor(public x:number, public y:number) {}
 }
 
 getX(new CPoint(10, 20));
