@@ -5,6 +5,12 @@ for letter in "ABCDEFGHIJKLMNOPQRSTVWXYZ":
     else:
         print(letter, " is a consonant")
         
-        
+for k in [1,2,3]:
+    print k
+    
+    print '='
+
+
+    
         
         
