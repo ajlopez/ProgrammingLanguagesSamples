@@ -12,3 +12,8 @@ def bar
 end
 
 puts bar
+
+def fun a, b 
+  a+b
+end
+
