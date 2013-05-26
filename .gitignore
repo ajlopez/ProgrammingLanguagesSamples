@@ -2,4 +2,5 @@
 *.beam
 *.pyc
 *.exe
+target
 
